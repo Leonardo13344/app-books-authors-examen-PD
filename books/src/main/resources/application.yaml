@@ -1,0 +1,11 @@
+server:
+  port: 8080
+javax:
+  sql:
+    DataSource:
+      bookDataSource:
+        dataSourceClassName: org.postgresql.ds.PGSimpleDataSource
+        dataSource:
+          url: jdbc:postgresql://rajje.db.elephantsql.com/uszccpxq
+          user: uszccpxq
+          password: fYBL_BxPR7y09kDIW8rkZULR3rYT9bBq

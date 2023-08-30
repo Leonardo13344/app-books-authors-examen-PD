@@ -1,0 +1,9 @@
+services:
+  books-service:
+    image: okteto.dev/app-authors:1.0.0
+    deploy:
+      replicas: 1
+    expose:
+      - 8080
+    ports:
+      - "8080:8080"
